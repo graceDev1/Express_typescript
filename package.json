@@ -5,6 +5,7 @@
   "main": "source/main.ts",
   "scripts": {
     "build": "rm -rf build && prettier --write source/ && tsc",
+    "start":"node build/main.js",
     "dev": "nodemon source/main.ts"
   },
   "repository": {
