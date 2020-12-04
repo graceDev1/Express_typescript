@@ -4,7 +4,8 @@
   "description": "express with typescript intro",
   "main": "source/main.ts",
   "scripts": {
-    "build": "rm -rf build && prettier --write source/ && tsc"
+    "build": "rm -rf build && prettier --write source/ && tsc",
+    "dev": "nodemon source/main.ts"
   },
   "repository": {
     "type": "git",
@@ -22,6 +23,7 @@
   },
   "devDependencies": {
     "@types/dotenv": "^8.2.0",
-    "@types/express": "^4.17.9"
+    "@types/express": "^4.17.9",
+    "nodemon": "^2.0.6"
   }
 }
