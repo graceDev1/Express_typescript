@@ -1,0 +1,19 @@
+{
+  "name": "express_typescript",
+  "version": "1.0.0",
+  "description": "express with typescript intro",
+  "main": "scr/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/graceDev1/Express_typescript.git"
+  },
+  "author": "Grace Birindwa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/graceDev1/Express_typescript/issues"
+  },
+  "homepage": "https://github.com/graceDev1/Express_typescript#readme"
+}
